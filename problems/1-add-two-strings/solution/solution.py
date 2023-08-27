@@ -1,4 +1,4 @@
-def addTwoStrings(num1, num2):
+def solution(num1, num2):
     if len(num2) > len(num1):
         num1, num2 = num2, num1
 

@@ -1,4 +1,4 @@
-def addTwoStrings(num1, num2):
+def problem(num1, num2):
     '''
     :param self:
     :param num1:
