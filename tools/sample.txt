@@ -1,0 +1,8 @@
+Slide 1
+Today, we are going to discuss about Pre Order Traversal.
+
+Slide 2
+There are 4 topics today.
+
+Slide 3
+First, Let’s see the definition of the pre order.
