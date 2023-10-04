@@ -14,10 +14,9 @@ for test in texts:
         continue
     lines.append(s)
 
-base_cmd = 'aws polly synthesize-speech --text-type ssml --output-format mp3 --voice-id Joanna --text \'<speak><prosody rate="fast">{0}</prosody></speak>\' {1}.mp3'
+base_cmd = 'aws polly synthesize-speech --text-type ssml --output-format mp3 --voice-id Matthew --text \'<speak><break time="1s"/><prosody rate="medium">{0}</prosody></speak>\' {1}.mp3'
 
 for i in range(len(lines)):
-    cmd = base_cmd.format(lines[i], str(i+1))
+    line = lines[i]
+    cmd = base_cmd.format(line, str(i+1))
     os.system(cmd)
-
-
