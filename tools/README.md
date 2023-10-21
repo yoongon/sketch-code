@@ -2,6 +2,7 @@
 
 ## 1. Text Export
 ```text
+# View > "Show Presenter Notes"
 # Images: Exports as images
 # https://support.apple.com/lv-lv/guide/keynote/tand1a4ee7c/mac
 # https://discussions.apple.com/thread/252961553
